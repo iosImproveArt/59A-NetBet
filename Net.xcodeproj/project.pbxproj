@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6BD18C32D4CD0C7003CF0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD18BD2D4CD0C7003CF0CB /* Preview Assets.xcassets */; };
+		F6BD18C42D4CD0C7003CF0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD18BF2D4CD0C7003CF0CB /* Assets.xcassets */; };
+		F6BD18C52D4CD0C7003CF0CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18C02D4CD0C7003CF0CB /* ContentView.swift */; };
+		F6BD18C62D4CD0C7003CF0CB /* NetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18C12D4CD0C7003CF0CB /* NetApp.swift */; };
+		F6BD18D82D4CD27D003CF0CB /* sport.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD18D52D4CD27D003CF0CB /* sport.xcassets */; };
+		F6BD18D92D4CD27D003CF0CB /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6BD18C82D4CD27D003CF0CB /* privacy.html */; };
+		F6BD18DA2D4CD27D003CF0CB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18CA2D4CD27D003CF0CB /* WebView.swift */; };
+		F6BD18DB2D4CD27D003CF0CB /* ImagePicker Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18D12D4CD27D003CF0CB /* ImagePicker Net59.swift */; };
+		F6BD18DC2D4CD27D003CF0CB /* QuotesView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18CD2D4CD27D003CF0CB /* QuotesView Net59.swift */; };
+		F6BD18DD2D4CD27D003CF0CB /* Dopomoga Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18CE2D4CD27D003CF0CB /* Dopomoga Net59.swift */; };
+		F6BD18DE2D4CD27D003CF0CB /* KcalView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18D02D4CD27D003CF0CB /* KcalView Net59.swift */; };
+		F6BD18DF2D4CD27D003CF0CB /* LoadingView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18C72D4CD27D003CF0CB /* LoadingView Net59.swift */; };
+		F6BD18E02D4CD27D003CF0CB /* ProfileView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18D22D4CD27D003CF0CB /* ProfileView Net59.swift */; };
+		F6BD18E12D4CD27D003CF0CB /* TrainingView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18D42D4CD27D003CF0CB /* TrainingView Net59.swift */; };
+		F6BD18E22D4CD27D003CF0CB /* HomeView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18D72D4CD27D003CF0CB /* HomeView Net59.swift */; };
+		F6BD18E32D4CD27D003CF0CB /* DayliStrerchView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18CF2D4CD27D003CF0CB /* DayliStrerchView Net59.swift */; };
+		F6BD18E42D4CD27D003CF0CB /* PrivacyView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18C92D4CD27D003CF0CB /* PrivacyView Net59.swift */; };
+		F6BD18E52D4CD27D003CF0CB /* OnboardingView Net59.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD18CC2D4CD27D003CF0CB /* OnboardingView Net59.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6BD18AC2D4CD0C3003CF0CB /* Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Net.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BD18BD2D4CD0C7003CF0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6BD18BF2D4CD0C7003CF0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BD18C02D4CD0C7003CF0CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6BD18C12D4CD0C7003CF0CB /* NetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetApp.swift; sourceTree = "<group>"; };
+		F6BD18C72D4CD27D003CF0CB /* LoadingView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18C82D4CD27D003CF0CB /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F6BD18C92D4CD27D003CF0CB /* PrivacyView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivacyView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18CA2D4CD27D003CF0CB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F6BD18CC2D4CD27D003CF0CB /* OnboardingView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18CD2D4CD27D003CF0CB /* QuotesView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuotesView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18CE2D4CD27D003CF0CB /* Dopomoga Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dopomoga Net59.swift"; sourceTree = "<group>"; };
+		F6BD18CF2D4CD27D003CF0CB /* DayliStrerchView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayliStrerchView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18D02D4CD27D003CF0CB /* KcalView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KcalView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18D12D4CD27D003CF0CB /* ImagePicker Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker Net59.swift"; sourceTree = "<group>"; };
+		F6BD18D22D4CD27D003CF0CB /* ProfileView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18D42D4CD27D003CF0CB /* TrainingView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrainingView Net59.swift"; sourceTree = "<group>"; };
+		F6BD18D52D4CD27D003CF0CB /* sport.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sport.xcassets; sourceTree = "<group>"; };
+		F6BD18D72D4CD27D003CF0CB /* HomeView Net59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView Net59.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BD18A92D4CD0C3003CF0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BD18A32D4CD0C3003CF0CB = {
+			isa = PBXGroup;
+			children = (
+				F6BD18C22D4CD0C7003CF0CB /* Net */,
+				F6BD18AD2D4CD0C3003CF0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BD18AD2D4CD0C3003CF0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18AC2D4CD0C3003CF0CB /* Net.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BD18BE2D4CD0C7003CF0CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18BD2D4CD0C7003CF0CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6BD18C22D4CD0C7003CF0CB /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18C12D4CD0C7003CF0CB /* NetApp.swift */,
+				F6BD18C02D4CD0C7003CF0CB /* ContentView.swift */,
+				F6BD18CB2D4CD27D003CF0CB /* Loading Net59 */,
+				F6BD18CC2D4CD27D003CF0CB /* OnboardingView Net59.swift */,
+				F6BD18CD2D4CD27D003CF0CB /* QuotesView Net59.swift */,
+				F6BD18CE2D4CD27D003CF0CB /* Dopomoga Net59.swift */,
+				F6BD18CF2D4CD27D003CF0CB /* DayliStrerchView Net59.swift */,
+				F6BD18D02D4CD27D003CF0CB /* KcalView Net59.swift */,
+				F6BD18D32D4CD27D003CF0CB /* Profile Net59 */,
+				F6BD18D62D4CD27D003CF0CB /* Tresha Net59 */,
+				F6BD18D72D4CD27D003CF0CB /* HomeView Net59.swift */,
+				F6BD18BF2D4CD0C7003CF0CB /* Assets.xcassets */,
+				F6BD18BE2D4CD0C7003CF0CB /* Preview Content */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		F6BD18CB2D4CD27D003CF0CB /* Loading Net59 */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18C72D4CD27D003CF0CB /* LoadingView Net59.swift */,
+				F6BD18C82D4CD27D003CF0CB /* privacy.html */,
+				F6BD18C92D4CD27D003CF0CB /* PrivacyView Net59.swift */,
+				F6BD18CA2D4CD27D003CF0CB /* WebView.swift */,
+			);
+			path = "Loading Net59";
+			sourceTree = "<group>";
+		};
+		F6BD18D32D4CD27D003CF0CB /* Profile Net59 */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18D12D4CD27D003CF0CB /* ImagePicker Net59.swift */,
+				F6BD18D22D4CD27D003CF0CB /* ProfileView Net59.swift */,
+			);
+			path = "Profile Net59";
+			sourceTree = "<group>";
+		};
+		F6BD18D62D4CD27D003CF0CB /* Tresha Net59 */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD18D42D4CD27D003CF0CB /* TrainingView Net59.swift */,
+				F6BD18D52D4CD27D003CF0CB /* sport.xcassets */,
+			);
+			path = "Tresha Net59";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BD18AB2D4CD0C3003CF0CB /* Net */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BD18BA2D4CD0C3003CF0CB /* Build configuration list for PBXNativeTarget "Net" */;
+			buildPhases = (
+				F6BD18A82D4CD0C3003CF0CB /* Sources */,
+				F6BD18A92D4CD0C3003CF0CB /* Frameworks */,
+				F6BD18AA2D4CD0C3003CF0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Net;
+			packageProductDependencies = (
+			);
+			productName = Net;
+			productReference = F6BD18AC2D4CD0C3003CF0CB /* Net.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BD18A42D4CD0C3003CF0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6BD18AB2D4CD0C3003CF0CB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F6BD18A72D4CD0C3003CF0CB /* Build configuration list for PBXProject "Net" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BD18A32D4CD0C3003CF0CB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6BD18AD2D4CD0C3003CF0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BD18AB2D4CD0C3003CF0CB /* Net */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BD18AA2D4CD0C3003CF0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BD18C32D4CD0C7003CF0CB /* Preview Assets.xcassets in Resources */,
+				F6BD18D82D4CD27D003CF0CB /* sport.xcassets in Resources */,
+				F6BD18D92D4CD27D003CF0CB /* privacy.html in Resources */,
+				F6BD18C42D4CD0C7003CF0CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BD18A82D4CD0C3003CF0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BD18C52D4CD0C7003CF0CB /* ContentView.swift in Sources */,
+				F6BD18DA2D4CD27D003CF0CB /* WebView.swift in Sources */,
+				F6BD18DB2D4CD27D003CF0CB /* ImagePicker Net59.swift in Sources */,
+				F6BD18DC2D4CD27D003CF0CB /* QuotesView Net59.swift in Sources */,
+				F6BD18DD2D4CD27D003CF0CB /* Dopomoga Net59.swift in Sources */,
+				F6BD18DE2D4CD27D003CF0CB /* KcalView Net59.swift in Sources */,
+				F6BD18DF2D4CD27D003CF0CB /* LoadingView Net59.swift in Sources */,
+				F6BD18E02D4CD27D003CF0CB /* ProfileView Net59.swift in Sources */,
+				F6BD18E12D4CD27D003CF0CB /* TrainingView Net59.swift in Sources */,
+				F6BD18E22D4CD27D003CF0CB /* HomeView Net59.swift in Sources */,
+				F6BD18E32D4CD27D003CF0CB /* DayliStrerchView Net59.swift in Sources */,
+				F6BD18E42D4CD27D003CF0CB /* PrivacyView Net59.swift in Sources */,
+				F6BD18E52D4CD27D003CF0CB /* OnboardingView Net59.swift in Sources */,
+				F6BD18C62D4CD0C7003CF0CB /* NetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6BD18B82D4CD0C3003CF0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6BD18B92D4CD0C3003CF0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BD18BB2D4CD0C3003CF0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Net/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Netsport;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Net;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6BD18BC2D4CD0C3003CF0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Net/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Netsport;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Net;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BD18A72D4CD0C3003CF0CB /* Build configuration list for PBXProject "Net" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BD18B82D4CD0C3003CF0CB /* Debug */,
+				F6BD18B92D4CD0C3003CF0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BD18BA2D4CD0C3003CF0CB /* Build configuration list for PBXNativeTarget "Net" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BD18BB2D4CD0C3003CF0CB /* Debug */,
+				F6BD18BC2D4CD0C3003CF0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BD18A42D4CD0C3003CF0CB /* Project object */;
+}

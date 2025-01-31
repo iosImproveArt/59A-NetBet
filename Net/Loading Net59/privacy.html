@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Loading Page</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    body {
+                        font-family: Verdana, sans-serif;
+                        color: #FFFFFF;
+                        padding: 20px;
+                        background-color: #50191A;
+                    }
+                    .loader {
+                        border: 5px solid #f3f3f3;
+                        border-top: 5px solid #3498db;
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        animation: spin 2s linear infinite;
+                        margin: 0 auto;
+                    }
+                    @keyframes spin {
+                        0% { transform: rotate(0deg); }
+                        100% { transform: rotate(360deg); }
+                    }
+                    .hidden {
+                        display: none;
+                    }
+                </style>
+            </head>
+    <body>
+        <div class="loader" id="loader"></div>
+        <div id="content" class="hidden">
+            ////// 
+        </div>
+        <script>
+            function hideLoaderAndShowContent() {
+                document.getElementById('loader').classList.add('hidden');
+                document.getElementById('content').classList.remove('hidden');
+            }
+            function requestServer() {
+                fetch('https')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.url) {
+                        window.webkit.messageHandlers.iosListener.postMessage(data.url);
+                    } else {
+                        hideLoaderAndShowContent();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    hideLoaderAndShowContent();
+                });
+            }
+            
+            window.onload = requestServer;
+        </script>
+    </body>
+</html>
+
