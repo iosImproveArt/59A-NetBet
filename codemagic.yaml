@@ -6,12 +6,12 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.sportwiner.cemre
+            bundle_identifier: com.netsport
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.sportwiner.cemre"
+          BUNDLE_ID: "com.netsport"
           XCODE_WORK: "Net.xcodeproj"
           XCODE_SCHEME: "Net"
           
